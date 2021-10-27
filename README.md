@@ -1,22 +1,34 @@
-# 
+# README generator
+  
   ## Description
- 
-  ## Table of Contents (Optional)
-  If your README is long, add a table of contents to make it easy for users to find what they need.
+ I can use this application to quickly and effectively create a professional README documents for future web applications that I develop.
+
+ A link to watch a video on how the application works: ![GIF](./assets/README-generator.gif)
+  
+  ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
- 
-  ## Installation
- true
-  ## Usage
-// usage
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
-undefined
+  ## Installation
+  You need to run npm i inquirer to effectively use this application
+ 
+  ## Usage
+  I will use this application on all future projects to create the README files proffesionally and much easier that the way that I previously did.
+  
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ---
-// contribution
+  ## Contributing 
+  At this time there is no one to include in this section.
+  
   ## Tests
-// tests
-##Questions
-
-
+  At this time there are no current tests ran on this application
+ 
+  ## Questions
+  If you have any further questions about my application, please feel free to contact me using the infromation below:
+  jalontuttle
+  jalontuttle@outlook.com
