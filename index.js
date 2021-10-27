@@ -28,15 +28,29 @@ inquirer
         },
         {
         name: 'installation',
-        type: 'confirm',
-        message: 'Is npm i needed to run your app?',
+        type: 'input',
+        message: 'Is anything needed to be installed for your app to run correctly?',
         },
-
+        {
+        name: 'usage',
+        type: 'input',
+        message: 'Give a brief explination of how you will use this application.',
+        },
         {
         name: 'license',
         type: 'rawlist',
         message: 'Which license does your application utilize?',
-        choices: ['MIT', 'BSD', 'GPL', 'None'],
+        choices: ['MIT', 'BSD', 'Apache', 'None'],
+        },
+        {
+        name: 'contribution',
+        type: 'input',
+        message: 'Please include the names and GitHub links of others who contributed to this application.',
+        },
+        {
+        name: 'tests',
+        type: 'input',
+        message: 'Please include any tests that are running with your application.',
         },
 ])
 .then((answers) => {
@@ -51,12 +65,3 @@ inquirer
         }
     })
 });
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
